@@ -1,0 +1,13 @@
+# ignore compiled test code
+main
+
+# ignore test code
+main.c
+
+# ignore vscode files
+.vscode/
+
+# ignore doxygen
+Doxyfile
+html/
+latex/
