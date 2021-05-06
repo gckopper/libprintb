@@ -9,5 +9,4 @@ main.c
 
 # ignore doxygen
 Doxyfile
-html/
 latex/
