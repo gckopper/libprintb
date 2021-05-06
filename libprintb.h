@@ -67,6 +67,6 @@ void nprintb (uint8_t nbytes, void* n) {
             numero = *p; // Coloca o valor do ponteiro na variavel numero
         }
     }
-    str[32] = '\0'; // Fecha a string tornando seu último bit um bit nulo
+    str[nbytes * 8] = '\0'; // Fecha a string tornando seu último bit um bit nulo
     printf("0b%s", str); // Escreve na tela o valor em binário
 }
